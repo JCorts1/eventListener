@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.granddiv {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(109,20,155);
+    background: linear-gradient(0deg, rgba(109,20,155,1) 0%, rgba(103,174,171,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.father {
+   width: 800px;
+   height: 700px;
+   border-radius: 10px;
+   background: rgb(197,197,197);
+   background: radial-gradient(circle, rgba(197,197,197,0.2847732843137255) 0%, rgba(25,25,25,0.35760241596638653) 100%);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   box-shadow: 0 0 16px #323232;
+}
+
+button {
+    width: 140px;
+    height: 50px;
+    border-radius: 7px;
+    margin: 5px;
+    background: rgb(89,0,138);
+    background: radial-gradient(circle, rgba(89,0,138,0.5641025641025641) 0%, rgba(190,148,214,0.517094017094017) 100%); 
+    color: white;
+    font-size: large;
+    border: 1px solid #787878;
+    box-shadow: 0 0 6px #323232;
+}
+
+label {
+    color: white;
+    font-size: x-large;
+    margin: 10px;
+}
+
+input {
+    background: transparent;
+    color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    height: 25px;
+    font-size: x-large;
+}
+
